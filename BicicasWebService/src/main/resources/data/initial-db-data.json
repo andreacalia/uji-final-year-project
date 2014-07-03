@@ -1,0 +1,443 @@
+[
+{
+	"code" : 1,
+	"name" : "1.- Facultad de Ciencias Humanas y Sociales",
+	"location" : {
+		"lon" : -0.071518,
+		"lat" : 39.995796
+	},
+	"bicycleNumber" : 28
+},
+{
+	"code" : 2,
+	"name" : "2.- Estación de trenes y autobuses",
+	"location" : {
+		"lon" : -0.052255,
+		"lat" : 39.987885
+	},
+	"bicycleNumber" : 28
+},
+{
+	"code" : 3,
+	"name" : "3.- Plaza de la Pescadería",
+	"location" : {
+		"lon" : -0.037804,
+		"lat" : 39.98616
+	},
+	"bicycleNumber" : 28
+},
+{
+	"code" : 4,
+	"name" : "4.- Paseo de Bonavista",
+	"location" : {
+		"lon" : 0.014758,
+		"lat" : 39.973499
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 5,
+	"name" : "5.- Av de Benicàssim",
+	"location" : {
+		"lon" : -0.041667,
+		"lat" : 40.001423
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 6,
+	"name" : "6.- Plaza de la Libertad",
+	"location" : {
+		"lon" : -0.047217,
+		"lat" : 39.976456
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 7,
+	"name" : "7.- Plaza de Teodoro Izquierdo",
+	"location" : {
+		"lon" : -0.037873,
+		"lat" : 39.994724
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 8,
+	"name" : "8.- Plaza Primer Molí",
+	"location" : {
+		"lon" : -0.032916,
+		"lat" : 39.993229
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 9,
+	"name" : "9.- Calle de Les Columbretes",
+	"location" : {
+		"lon" : -0.026229,
+		"lat" : 39.990383
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 10,
+	"name" : "10.- Plaza del Doctor Marañón",
+	"location" : {
+		"lon" : -0.034468,
+		"lat" : 39.979523
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 11,
+	"name" : "11.- Plaza del Juez Borrull",
+	"location" : {
+		"lon" : -0.03511,
+		"lat" : 39.983742
+	},
+	"bicycleNumber" : 28
+},
+{
+	"code" : 12,
+	"name" : "12.- Escuela Oficial de Idiomas",
+	"location" : {
+		"lon" : -0.059652,
+		"lat" : 39.993382
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 13,
+	"name" : "13.- Tenencia alcaldía oeste",
+	"location" : {
+		"lon" : -0.047486,
+		"lat" : 39.987175
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 14,
+	"name" : "14.- Plaza del Maestrazgo",
+	"location" : {
+		"lon" : -0.040383,
+		"lat" : 39.989731
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 15,
+	"name" : "15.- Plaza Huerto Sogueros",
+	"location" : {
+		"lon" : -0.041899,
+		"lat" : 39.986332
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 16,
+	"name" : "16.- Hospital provincial",
+	"location" : {
+		"lon" : -0.044895,
+		"lat" : 39.984856
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 17,
+	"name" : "17.- Plaza del real",
+	"location" : {
+		"lon" : -0.04046,
+		"lat" : 39.98457
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 18,
+	"name" : "18.- Museo de Bellas Artes",
+	"location" : {
+		"lon" : -0.030733,
+		"lat" : 39.982838
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 19,
+	"name" : "19.- Planetario",
+	"location" : {
+		"lon" : 0.022854,
+		"lat" : 39.979664
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 20,
+	"name" : "20.- Plaza Muralla Liberal",
+	"location" : {
+		"lon" : -0.033264,
+		"lat" : 39.98843
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 21,
+	"name" : "21.- Piscina municipal",
+	"location" : {
+		"lon" : -0.063504,
+		"lat" : 39.981651
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 22,
+	"name" : "22.- Polodeportivo ciutat de Castelló",
+	"location" : {
+		"lon" : -0.055558,
+		"lat" : 39.974476
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 23,
+	"name" : "23.- Paseo de la Universidad",
+	"location" : {
+		"lon" : -0.057528,
+		"lat" : 39.991062
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 24,
+	"name" : "24.- Carretera Alcora",
+	"location" : {
+		"lon" : -0.058326,
+		"lat" : 39.986794
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 26,
+	"name" : "26.- Plaza Donoso Cortes",
+	"location" : {
+		"lon" : -0.043945,
+		"lat" : 39.991547
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 27,
+	"name" : "27.- Illa Baleato",
+	"location" : {
+		"lon" : -0.055109,
+		"lat" : 39.975002
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 28,
+	"name" : "28.- Plaza Botánico Calduch",
+	"location" : {
+		"lon" : -0.042717,
+		"lat" : 39.979092
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 29,
+	"name" : "29.- Parque del Geólogo José Royo",
+	"location" : {
+		"lon" : -0.038195,
+		"lat" : 39.97834
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 30,
+	"name" : "30.- Plaza Fernándo Herrero Tejedor",
+	"location" : {
+		"lon" : -0.030194,
+		"lat" : 39.988102
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 31,
+	"name" : "31.- Ginjols",
+	"location" : {
+		"lon" : -0.026033,
+		"lat" : 39.981674
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 32,
+	"name" : "32.- Av de Salvador Ferrandis",
+	"location" : {
+		"lon" : 0.025892,
+		"lat" : 39.99313
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 33,
+	"name" : "33.- Avenidad Sos Baynat",
+	"location" : {
+		"lon" : -0.064416,
+		"lat" : 39.992458
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 34,
+	"name" : "34.- Plaza Independencia",
+	"location" : {
+		"lon" : -0.043013,
+		"lat" : 39.988178
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 35,
+	"name" : "35.- Avenida Chatellerault",
+	"location" : {
+		"lon" : -0.035067,
+		"lat" : 39.974777
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 36,
+	"name" : "36.- Auditorio",
+	"location" : {
+		"lon" : -0.023646,
+		"lat" : 39.994152
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 37,
+	"name" : "37.- Plaza Cardona Vives",
+	"location" : {
+		"lon" : -0.034727,
+		"lat" : 39.98587
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 38,
+	"name" : "38.- Paseo Morella",
+	"location" : {
+		"lon" : -0.046424,
+		"lat" : 39.988575
+	},
+	"bicycleNumber" : 28
+},
+{
+	"code" : 39,
+	"name" : "39.- Parque de Oeste",
+	"location" : {
+		"lon" : -0.046243,
+		"lat" : 39.980347
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 40,
+	"name" : "40.- Av del Mar I",
+	"location" : {
+		"lon" : -0.029394,
+		"lat" : 39.984859
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 41,
+	"name" : "41.- Plaza la Paz",
+	"location" : {
+		"lon" : -0.037898,
+		"lat" : 39.983868
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 42,
+	"name" : "42.- Avenida Vall d'Uixo y Cardenal Costa",
+	"location" : {
+		"lon" : -0.049342,
+		"lat" : 39.991573
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 43,
+	"name" : "43.- Fernando el Católico",
+	"location" : {
+		"lon" : -0.030695,
+		"lat" : 39.979939
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 44,
+	"name" : "44.- Calle de San Roque",
+	"location" : {
+		"lon" : -0.036184,
+		"lat" : 39.991184
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 45,
+	"name" : "45.- Gran Vía.",
+	"location" : {
+		"lon" : -0.049488,
+		"lat" : 39.982594
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 46,
+	"name" : "46.- UJI - ESTCE",
+	"location" : {
+		"lon" : -0.067479,
+		"lat" : 39.992954
+	},
+	"bicycleNumber" : 26
+},
+{
+	"code" : 47,
+	"name" : "47.- UJI - FCJE",
+	"location" : {
+		"lon" : -0.066186,
+		"lat" : 39.994259
+	},
+	"bicycleNumber" : 26
+},
+{
+	"code" : 48,
+	"name" : "48.- Plaza Clavé",
+	"location" : {
+		"lon" : -0.037874,
+		"lat" : 39.988842
+	},
+	"bicycleNumber" : 14
+},
+{
+	"code" : 49,
+	"name" : "49.- Casal Jove",
+	"location" : {
+		"lon" : 0.010699,
+		"lat" : 39.971813
+	},
+	"bicycleNumber" : 16
+},
+{
+	"code" : 50,
+	"name" : "50.- Avenida de Valencia - Grupo Lidón",
+	"location" : {
+		"lon" : -0.049653,
+		"lat" : 39.974686
+	},
+	"bicycleNumber" : 16
+}
+]
