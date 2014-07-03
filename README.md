@@ -1,7 +1,21 @@
 UJI Final Year Project
 ======================
 
-.
+Build
+----------------------
+To build the project you need to use Maven. The following commands will generate the WAR packages that you can deploy on, for example, Apache Tomcat.
+
+```
+cd path/to/git
+cd commons/
+mvn clean compile install
+cd ../BicicasWebService/
+mvn clean compile package
+cd ../RenfeWebService/
+mvn clean compile package
+cd ../TripPlanner/
+mvn clean compile package
+```
 
 
 License
