@@ -159,4 +159,77 @@ public class RESTController {
 		return Response.ok(xml).build();
 	}
 	
+	@GET
+	@Path(Paths.URL.REST_ALL_AVAILABLE_BICICAS)
+	@Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
+	public Response getAllAvailableBikes(@Context HttpHeaders headers) {
+		final BicicasDAO dao = new BicicasDAO();
+		dao.link();
+		
+		final Iterator<BicicasPoint> it = dao.getAllAvailableBicicasPoints();
+		final List<BicicasPoint> all = new ArrayList<>();
+		
+		while( it.hasNext() )
+			all.add(it.next());
+		
+		dao.unlink();
+		
+		if( headers.getAcceptableMediaTypes().contains(MediaType.APPLICATION_JSON_TYPE) )
+			// JSON is requested
+			return Response.ok(all).build();
+
+		// XML is requested
+		// Wrap the list in an object because of JAXB
+		final BicicasPointList list = new BicicasPointList();
+		list.bicicasPoints = all;
+		
+		String xml = JAXBUtils.marshal(list);
+		
+		try {
+			xml = XSLTUtils.applyXSLT(xml, Paths.XSLT.BICICAS_HGEO);
+		} catch (XSLTException e) {
+			Log.e(TAG, e, ErrorMessages.XSLT_ERROR, Paths.XSLT.BICICAS_HGEO);
+		}
+		
+		return Response.ok(xml).build();
+	}
+	
+	@GET
+	@Path(Paths.URL.REST_STRAIGHT_NEAREST_BICICAS)
+	@Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
+	public Response getStraightNearestBicyclePoint(
+			@QueryParam("lon") final Double lon,
+			@QueryParam("lat") final Double lat,
+			@QueryParam("num") final Integer num,
+			@Context HttpHeaders headers) {
+		
+		Log.d(TAG, "getNearestBicyclePoint [lat:"+lat+", lon:"+lon+"]");
+		final BicicasDAO dao = new BicicasDAO();
+		dao.link();
+		
+		// Nearest bicicas points sorted by geometrical distance
+		final Iterator<BicicasPoint> it = dao.getAllBicicasPointsNearToWithAvailableBikes(lon, lat, num);
+		final List<BicicasPoint> points = new ArrayList<BicicasPoint>();
+		while( it.hasNext() )
+			points.add(it.next());
+		
+		dao.unlink();
+		
+		if( headers.getAcceptableMediaTypes().contains(MediaType.APPLICATION_JSON_TYPE) )
+			// JSON is requested
+			return Response.ok(points).build();
+
+		// XML is requested
+		final BicicasPointList list = new BicicasPointList();
+		list.bicicasPoints = points;
+		
+		String xml = JAXBUtils.marshal(list);
+		try {
+			xml = XSLTUtils.applyXSLT(xml, Paths.XSLT.BICICAS_HGEO);
+		} catch (XSLTException e) {
+			Log.e(TAG, e, ErrorMessages.XSLT_ERROR, Paths.XSLT.BICICAS_HGEO);
+		}
+		
+		return Response.ok(xml).build();
+	}
 }

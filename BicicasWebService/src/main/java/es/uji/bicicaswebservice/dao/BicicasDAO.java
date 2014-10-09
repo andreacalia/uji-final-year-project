@@ -43,10 +43,22 @@ public final class BicicasDAO extends AbstractJongoDAO {
 		return bicicasCollection.find().sort("{code:1}").as(BicicasPoint.class).iterator();
 	}
 	
+	public Iterator<BicicasPoint> getAllAvailableBicicasPoints() {
+		super.assertLinked();
+		
+		return bicicasCollection.find("{currentState.bicycleAvailable : {$gt: 0}}").sort("{code:1}").as(BicicasPoint.class).iterator();
+	}
+	
 	public Iterator<BicicasPoint> getAllBicicasPointsNearTo(final Double lon, final Double lat, final int num) {
 		super.assertLinked();
 		
 		return bicicasCollection.find("{location:{$near:[#,#]}}", lon, lat).limit(num).as(BicicasPoint.class).iterator();
+	}
+	
+	public Iterator<BicicasPoint> getAllBicicasPointsNearToWithAvailableBikes(final Double lon, final Double lat, final int num) {
+		super.assertLinked();
+		
+		return bicicasCollection.find("{$and: [{location:{$near:[#,#]}}, {currentState.bicycleAvailable : {$gt: 0}}]}", lon, lat).limit(num).as(BicicasPoint.class).iterator();
 	}
 	
 	public boolean insert(final BicicasPoint bicicasPoint) {
@@ -93,4 +105,5 @@ public final class BicicasDAO extends AbstractJongoDAO {
 		
 		bicicasCollection.ensureIndex("{location: '2d'}");
 	}
+	
 }

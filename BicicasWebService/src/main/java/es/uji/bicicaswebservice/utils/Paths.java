@@ -42,7 +42,10 @@ public class Paths {
 		public static final String REST_ALL_BICICAS = "bicicas";
 
 		public static final String REST_NEAREST_BICICAS = "bicicas/nearest";
+		
+		public static final String REST_STRAIGHT_NEAREST_BICICAS = "bicicas/nearest/straight";
 
+		public static final String REST_ALL_AVAILABLE_BICICAS = "bicicas/available";
 		
 	}
 	
