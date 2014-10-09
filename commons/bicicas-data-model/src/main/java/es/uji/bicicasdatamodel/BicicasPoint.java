@@ -1,6 +1,9 @@
 package es.uji.bicicasdatamodel;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+import es.uji.geotec.commondatamodel.GeoJSONPoint;
 
 /**
  * Model class representing a sharing point station of Castellón's bike rental service (Bicicas)
@@ -17,5 +20,7 @@ public class BicicasPoint {
 	public Location location;
 	public Integer bicycleNumber;
 	public SharingPointState currentState;
+	@XmlTransient
+	public GeoJSONPoint geoJson;
 	
 }

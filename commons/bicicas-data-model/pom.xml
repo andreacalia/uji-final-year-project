@@ -11,6 +11,13 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>es.uji.geotec</groupId>
+			<artifactId>common-data-model</artifactId>
+			<version>0.9.9</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
