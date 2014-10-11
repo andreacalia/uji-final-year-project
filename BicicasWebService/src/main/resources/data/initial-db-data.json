@@ -6,6 +6,10 @@
 		"lon" : -0.071518,
 		"lat" : 39.995796
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.071518, 39.995796]
+	},
 	"bicycleNumber" : 28
 },
 {
@@ -14,6 +18,10 @@
 	"location" : {
 		"lon" : -0.052255,
 		"lat" : 39.987885
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.052255, 39.987885]
 	},
 	"bicycleNumber" : 28
 },
@@ -24,6 +32,10 @@
 		"lon" : -0.037804,
 		"lat" : 39.98616
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.037804, 39.98616]
+	},
 	"bicycleNumber" : 28
 },
 {
@@ -32,6 +44,10 @@
 	"location" : {
 		"lon" : 0.014758,
 		"lat" : 39.973499
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [0.014758, 39.973499]
 	},
 	"bicycleNumber" : 14
 },
@@ -42,6 +58,10 @@
 		"lon" : -0.041667,
 		"lat" : 40.001423
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.041667, 40.001423]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -50,6 +70,10 @@
 	"location" : {
 		"lon" : -0.047217,
 		"lat" : 39.976456
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.047217, 39.976456]
 	},
 	"bicycleNumber" : 14
 },
@@ -60,6 +84,10 @@
 		"lon" : -0.037873,
 		"lat" : 39.994724
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.037873, 39.994724]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -68,6 +96,10 @@
 	"location" : {
 		"lon" : -0.032916,
 		"lat" : 39.993229
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.032916, 39.993229]
 	},
 	"bicycleNumber" : 14
 },
@@ -78,6 +110,10 @@
 		"lon" : -0.026229,
 		"lat" : 39.990383
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.026229, 39.990383]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -86,6 +122,10 @@
 	"location" : {
 		"lon" : -0.034468,
 		"lat" : 39.979523
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.034468, 39.979523]
 	},
 	"bicycleNumber" : 14
 },
@@ -96,6 +136,10 @@
 		"lon" : -0.03511,
 		"lat" : 39.983742
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.03511, 39.983742]
+	},
 	"bicycleNumber" : 28
 },
 {
@@ -104,6 +148,10 @@
 	"location" : {
 		"lon" : -0.059652,
 		"lat" : 39.993382
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.059652, 39.993382]
 	},
 	"bicycleNumber" : 14
 },
@@ -114,6 +162,10 @@
 		"lon" : -0.047486,
 		"lat" : 39.987175
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.047486, 39.987175]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -122,6 +174,10 @@
 	"location" : {
 		"lon" : -0.040383,
 		"lat" : 39.989731
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.040383, 39.989731]
 	},
 	"bicycleNumber" : 14
 },
@@ -132,6 +188,10 @@
 		"lon" : -0.041899,
 		"lat" : 39.986332
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.041899, 39.986332]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -140,6 +200,10 @@
 	"location" : {
 		"lon" : -0.044895,
 		"lat" : 39.984856
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.044895, 39.984856]
 	},
 	"bicycleNumber" : 14
 },
@@ -150,6 +214,10 @@
 		"lon" : -0.04046,
 		"lat" : 39.98457
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.04046, 39.98457]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -158,6 +226,10 @@
 	"location" : {
 		"lon" : -0.030733,
 		"lat" : 39.982838
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.030733, 39.982838]
 	},
 	"bicycleNumber" : 16
 },
@@ -168,6 +240,10 @@
 		"lon" : 0.022854,
 		"lat" : 39.979664
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [0.022854, 39.979664]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -176,6 +252,10 @@
 	"location" : {
 		"lon" : -0.033264,
 		"lat" : 39.98843
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.033264, 39.98843]
 	},
 	"bicycleNumber" : 14
 },
@@ -186,6 +266,10 @@
 		"lon" : -0.063504,
 		"lat" : 39.981651
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.063504, 39.981651]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -194,6 +278,10 @@
 	"location" : {
 		"lon" : -0.055558,
 		"lat" : 39.974476
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.055558, 39.974476]
 	},
 	"bicycleNumber" : 14
 },
@@ -204,6 +292,10 @@
 		"lon" : -0.057528,
 		"lat" : 39.991062
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.057528, 39.991062]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -212,6 +304,10 @@
 	"location" : {
 		"lon" : -0.058326,
 		"lat" : 39.986794
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.058326, 39.986794]
 	},
 	"bicycleNumber" : 14
 },
@@ -222,6 +318,10 @@
 		"lon" : -0.043945,
 		"lat" : 39.991547
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.043945, 39.991547]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -230,6 +330,10 @@
 	"location" : {
 		"lon" : -0.055109,
 		"lat" : 39.975002
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.055109, 39.975002]
 	},
 	"bicycleNumber" : 14
 },
@@ -240,6 +344,10 @@
 		"lon" : -0.042717,
 		"lat" : 39.979092
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.042717, 39.979092]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -248,6 +356,10 @@
 	"location" : {
 		"lon" : -0.038195,
 		"lat" : 39.97834
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.038195, 39.97834]
 	},
 	"bicycleNumber" : 16
 },
@@ -258,6 +370,10 @@
 		"lon" : -0.030194,
 		"lat" : 39.988102
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.030194, 39.988102]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -266,6 +382,10 @@
 	"location" : {
 		"lon" : -0.026033,
 		"lat" : 39.981674
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.026033, 39.981674]
 	},
 	"bicycleNumber" : 14
 },
@@ -276,6 +396,10 @@
 		"lon" : 0.025892,
 		"lat" : 39.99313
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [0.025892, 39.99313]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -284,6 +408,10 @@
 	"location" : {
 		"lon" : -0.064416,
 		"lat" : 39.992458
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.064416, 39.992458]
 	},
 	"bicycleNumber" : 16
 },
@@ -294,6 +422,10 @@
 		"lon" : -0.043013,
 		"lat" : 39.988178
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.043013, 39.988178]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -302,6 +434,10 @@
 	"location" : {
 		"lon" : -0.035067,
 		"lat" : 39.974777
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.035067, 39.974777]
 	},
 	"bicycleNumber" : 14
 },
@@ -312,6 +448,10 @@
 		"lon" : -0.023646,
 		"lat" : 39.994152
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.023646, 39.994152]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -320,6 +460,10 @@
 	"location" : {
 		"lon" : -0.034727,
 		"lat" : 39.98587
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.034727, 39.98587]
 	},
 	"bicycleNumber" : 14
 },
@@ -330,6 +474,10 @@
 		"lon" : -0.046424,
 		"lat" : 39.988575
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.046424, 39.988575]
+	},
 	"bicycleNumber" : 28
 },
 {
@@ -338,6 +486,10 @@
 	"location" : {
 		"lon" : -0.046243,
 		"lat" : 39.980347
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.046243, 39.980347]
 	},
 	"bicycleNumber" : 16
 },
@@ -348,6 +500,10 @@
 		"lon" : -0.029394,
 		"lat" : 39.984859
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.029394, 39.984859]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -356,6 +512,10 @@
 	"location" : {
 		"lon" : -0.037898,
 		"lat" : 39.983868
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.037898, 39.983868]
 	},
 	"bicycleNumber" : 14
 },
@@ -366,6 +526,10 @@
 		"lon" : -0.049342,
 		"lat" : 39.991573
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.049342, 39.991573]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -374,6 +538,10 @@
 	"location" : {
 		"lon" : -0.030695,
 		"lat" : 39.979939
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.030695, 39.979939]
 	},
 	"bicycleNumber" : 16
 },
@@ -384,6 +552,10 @@
 		"lon" : -0.036184,
 		"lat" : 39.991184
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.036184, 39.991184]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -392,6 +564,10 @@
 	"location" : {
 		"lon" : -0.049488,
 		"lat" : 39.982594
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.049488, 39.982594]
 	},
 	"bicycleNumber" : 16
 },
@@ -402,6 +578,10 @@
 		"lon" : -0.067479,
 		"lat" : 39.992954
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.067479, 39.992954]
+	},
 	"bicycleNumber" : 26
 },
 {
@@ -410,6 +590,10 @@
 	"location" : {
 		"lon" : -0.066186,
 		"lat" : 39.994259
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.066186, 39.994259]
 	},
 	"bicycleNumber" : 26
 },
@@ -420,6 +604,10 @@
 		"lon" : -0.037874,
 		"lat" : 39.988842
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.037874, 39.988842]
+	},
 	"bicycleNumber" : 14
 },
 {
@@ -429,6 +617,10 @@
 		"lon" : 0.010699,
 		"lat" : 39.971813
 	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [0.010699, 39.971813]
+	},
 	"bicycleNumber" : 16
 },
 {
@@ -437,6 +629,10 @@
 	"location" : {
 		"lon" : -0.049653,
 		"lat" : 39.974686
+	},
+	"geoJson" : {
+		"type" : "Point",
+		"coordinates" : [-0.049653, 39.974686]
 	},
 	"bicycleNumber" : 16
 }
